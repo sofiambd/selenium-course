@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parametrized test Suite" verbose="1">
+    <test name="Parametrized Test One">
+        <parameter name="emailAccount" value="testaccount@gmail.com" />
+        <parameter name="passAccount" value="testaccount!1" />
+        <classes>
+            <class name="tests.Login"/>
+        </classes>
+    </test>
+    <test name="Test Two">
+        <classes>
+            <class name="tests.Languages"/>
+        </classes>
+    </test>
+    <test name="Parametrized Test Three">
+        <parameter name="titleCategory" value="nav-4" />
+        <parameter name="assertSubCategory" value="Home &amp; Decor" />
+        <parameter name="subCategoryTitle" value="Books &amp; Music" />
+        <parameter name="titleElement" value="A Tale of Two Cities" />
+        <parameter name="titleProduct" value="A Tale of Two Cities" />
+        <parameter name="assertProductTitle" value="A Tale of Two Cities" />
+        <classes>
+            <class name="tests.Products"/>
+        </classes>
+    </test>
+    <test name="Parametrized Test Four">
+        <parameter name="titleCategory" value="nav-1" />
+        <parameter name="assertSubCategory" value="Women" />
+        <parameter name="subCategoryTitle" value="Pants &amp; Denim" />
+        <classes>
+            <class name="tests.ShopBy"/>
+        </classes>
+    </test>
+    <test name="Parametrized Test Five">
+        <parameter name="emailAccount" value="testaccount@gmail.com" />
+        <parameter name="passAccount" value="testaccount!1" />
+        <parameter name="titleCategory" value="nav-4" />
+        <parameter name="assertSubCategory" value="Home &amp; Decor" />
+        <parameter name="subCategoryTitle" value="Electronics" />
+        <classes>
+            <class name="tests.WishList"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,1 @@
+{"uuid":"f408f6ba-5678-44fe-8b12-2d30c9e88cd3","name":"Parametrized Test Four","children":["47f43246-4042-45fc-95ba-5feb5c1285a8"],"befores":[],"afters":[{"name":"afterTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1647012197702,"stop":1647012197862}],"start":1647012190959,"stop":1647012197863}

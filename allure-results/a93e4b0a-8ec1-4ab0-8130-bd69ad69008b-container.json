@@ -1,0 +1,1 @@
+{"uuid":"a93e4b0a-8ec1-4ab0-8130-bd69ad69008b","name":"Parametrized Test One","children":["7a44ded5-8b45-4a8f-96ee-7b0b61fb50e7"],"befores":[],"afters":[{"name":"afterTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1647012180169,"stop":1647012180341}],"start":1647012174001,"stop":1647012180341}
